@@ -1,0 +1,55 @@
+# Project: Algos
+# Makefile created by Dev-C++ 5.9.2
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o
+LINKOBJ  = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
+BIN      = Algos.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Algos/ArrayUtilities.o: Algos/ArrayUtilities.cpp
+	$(CPP) -c Algos/ArrayUtilities.cpp -o Algos/ArrayUtilities.o $(CXXFLAGS)
+
+Algos/BubbleSort.o: Algos/BubbleSort.cpp
+	$(CPP) -c Algos/BubbleSort.cpp -o Algos/BubbleSort.o $(CXXFLAGS)
+
+Algos/LargestSumContiguousSubArray.o: Algos/LargestSumContiguousSubArray.cpp
+	$(CPP) -c Algos/LargestSumContiguousSubArray.cpp -o Algos/LargestSumContiguousSubArray.o $(CXXFLAGS)
+
+Algos/LinearSearch.o: Algos/LinearSearch.cpp
+	$(CPP) -c Algos/LinearSearch.cpp -o Algos/LinearSearch.o $(CXXFLAGS)
+
+Algos/main.o: Algos/main.cpp
+	$(CPP) -c Algos/main.cpp -o Algos/main.o $(CXXFLAGS)
+
+Algos/MajorityElement.o: Algos/MajorityElement.cpp
+	$(CPP) -c Algos/MajorityElement.cpp -o Algos/MajorityElement.o $(CXXFLAGS)
+
+Algos/NumberOddOccurence.o: Algos/NumberOddOccurence.cpp
+	$(CPP) -c Algos/NumberOddOccurence.cpp -o Algos/NumberOddOccurence.o $(CXXFLAGS)
+
+Algos/PairWithSumInArray.o: Algos/PairWithSumInArray.cpp
+	$(CPP) -c Algos/PairWithSumInArray.cpp -o Algos/PairWithSumInArray.o $(CXXFLAGS)
+
+Algos/SearchInSortedPivotedArray.o: Algos/SearchInSortedPivotedArray.cpp
+	$(CPP) -c Algos/SearchInSortedPivotedArray.cpp -o Algos/SearchInSortedPivotedArray.o $(CXXFLAGS)
+
+Algos/Utilities.o: Algos/Utilities.cpp
+	$(CPP) -c Algos/Utilities.cpp -o Algos/Utilities.o $(CXXFLAGS)
