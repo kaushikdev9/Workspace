@@ -17,3 +17,4 @@ void TestBubbleSort();
 void TestMajorityElement();
 void TestNumberOddOccurence();
 void TestLargestSumContiguousSubArray();
+void TestSearchSortedPivotedArray();

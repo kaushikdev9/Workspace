@@ -17,6 +17,6 @@ int main(int argc, const char * argv[]) {
     TestMajorityElement();
     TestNumberOddOccurence();
     TestLargestSumContiguousSubArray();
-    
+    TestSearchSortedPivotedArray();
     return 0;
 }
