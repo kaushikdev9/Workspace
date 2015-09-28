@@ -30,19 +30,19 @@ int FindPivot(int* a, int low, int high)
 	if(a[low] >= a[mid])
 		return FindPivot(a, low, mid-1);
 	else
-		FindPivot(a, mid+1, high);
+		return FindPivot(a, mid+1, high);
 }
 
 int BinarySearch(int* a, int start, int end, int key)
 {
-	int mid= (start + mid)/2;
+	int mid= (start + end)/2;
 	
 	if(a[mid] == key)
 		return mid;
 	else if(a[mid] > key)
-		BinarySearch(a, start, mid, key);
+		return BinarySearch(a, start, mid, key);
 	else
-		BinarySearch(a, mid+1, end, key);
+		return BinarySearch(a, mid+1, end, key);
 }
 
 int SearchSortedPivotedArray(int* a, int len, int key)

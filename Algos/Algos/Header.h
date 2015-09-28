@@ -18,3 +18,8 @@ void TestMajorityElement();
 void TestNumberOddOccurence();
 void TestLargestSumContiguousSubArray();
 void TestSearchSortedPivotedArray();
+
+void TestTreeSize();
+void TestIdenticalTrees();
+void TestTreeHeight();
+void TestDeleteTree();

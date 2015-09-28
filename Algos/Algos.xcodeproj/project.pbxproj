@@ -15,6 +15,12 @@
 		7713038E1B97F6020072C81C /* NumberOddOccurence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7713038D1B97F6020072C81C /* NumberOddOccurence.cpp */; };
 		771303901B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7713038F1B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp */; };
 		771303921B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 771303911B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp */; };
+		77EB02481BB7DCD500AEBD38 /* TreeUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */; };
+		77EB024B1BB7DF2D00AEBD38 /* TreeSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */; };
+		77EB024D1BB7E9E300AEBD38 /* IdenticalTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */; };
+		77EB024F1BB7F76000AEBD38 /* TreeHeight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB024E1BB7F76000AEBD38 /* TreeHeight.cpp */; };
+		77EB02511BB8361700AEBD38 /* DeleteTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB02501BB8361700AEBD38 /* DeleteTree.cpp */; };
+		77EB02531BB837E600AEBD38 /* BuildMirror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB02521BB837E600AEBD38 /* BuildMirror.cpp */; };
 		77F2B02C1B46C42700F72F0F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B02B1B46C42700F72F0F /* main.cpp */; };
 		77F2B0331B46C68100F72F0F /* LinearSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77F2B0321B46C68100F72F0F /* LinearSearch.cpp */; };
 /* End PBXBuildFile section */
@@ -42,6 +48,13 @@
 		7713038D1B97F6020072C81C /* NumberOddOccurence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOddOccurence.cpp; sourceTree = "<group>"; };
 		7713038F1B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestSumContiguousSubArray.cpp; sourceTree = "<group>"; };
 		771303911B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInSortedPivotedArray.cpp; sourceTree = "<group>"; };
+		77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeUtilities.cpp; sourceTree = "<group>"; };
+		77EB02491BB7DE1100AEBD38 /* TreeUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeUtilities.h; sourceTree = "<group>"; };
+		77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeSize.cpp; sourceTree = "<group>"; };
+		77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IdenticalTrees.cpp; sourceTree = "<group>"; };
+		77EB024E1BB7F76000AEBD38 /* TreeHeight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeHeight.cpp; sourceTree = "<group>"; };
+		77EB02501BB8361700AEBD38 /* DeleteTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteTree.cpp; sourceTree = "<group>"; };
+		77EB02521BB837E600AEBD38 /* BuildMirror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuildMirror.cpp; sourceTree = "<group>"; };
 		77F2B0281B46C42700F72F0F /* Algos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algos; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F2B02B1B46C42700F72F0F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		77F2B0321B46C68100F72F0F /* LinearSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearSearch.cpp; sourceTree = "<group>"; };
@@ -78,6 +91,13 @@
 		776EA6051B46EE5000B8F356 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
+				77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */,
+				77EB02491BB7DE1100AEBD38 /* TreeUtilities.h */,
+				77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */,
+				77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */,
+				77EB024E1BB7F76000AEBD38 /* TreeHeight.cpp */,
+				77EB02501BB8361700AEBD38 /* DeleteTree.cpp */,
+				77EB02521BB837E600AEBD38 /* BuildMirror.cpp */,
 			);
 			name = Trees;
 			sourceTree = "<group>";
@@ -175,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77EB024B1BB7DF2D00AEBD38 /* TreeSize.cpp in Sources */,
 				771303821B97418B0072C81C /* PairWithSumInArray.cpp in Sources */,
 				77F2B0331B46C68100F72F0F /* LinearSearch.cpp in Sources */,
 				771303901B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp in Sources */,
@@ -183,6 +204,11 @@
 				771303861B9754780072C81C /* ArrayUtilities.cpp in Sources */,
 				77F2B02C1B46C42700F72F0F /* main.cpp in Sources */,
 				7713038E1B97F6020072C81C /* NumberOddOccurence.cpp in Sources */,
+				77EB02481BB7DCD500AEBD38 /* TreeUtilities.cpp in Sources */,
+				77EB024F1BB7F76000AEBD38 /* TreeHeight.cpp in Sources */,
+				77EB02531BB837E600AEBD38 /* BuildMirror.cpp in Sources */,
+				77EB024D1BB7E9E300AEBD38 /* IdenticalTrees.cpp in Sources */,
+				77EB02511BB8361700AEBD38 /* DeleteTree.cpp in Sources */,
 				771303841B9751F80072C81C /* BubbleSort.cpp in Sources */,
 				771303921B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp in Sources */,
 			);

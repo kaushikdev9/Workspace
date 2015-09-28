@@ -18,5 +18,10 @@ int main(int argc, const char * argv[]) {
     TestNumberOddOccurence();
     TestLargestSumContiguousSubArray();
     TestSearchSortedPivotedArray();
+    
+    TestTreeSize();
+    TestIdenticalTrees();
+    TestTreeHeight();
+    TestDeleteTree();
     return 0;
 }
