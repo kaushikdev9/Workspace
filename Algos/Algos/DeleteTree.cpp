@@ -32,7 +32,7 @@ void DeleteTree(IntTreeNode* root)
     DeleteTree(root->right);
     
     cout<<"Deleting "<<root->data<<"\n";
-    free(root);
+    delete(root);
 }
 
 void TestDeleteTree()

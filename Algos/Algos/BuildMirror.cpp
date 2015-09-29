@@ -1,18 +1,10 @@
-//
-//  BuildMirror.cpp
-//  Algos
-//
-//  Created by Kaushik Dev on 9/27/15.
-//  Copyright (c) 2015 Kaushik Dev. All rights reserved.
-//
-
 #include <stdio.h>
 #include <iostream>
 #include "Utilities.h"
 #include "TreeUtilities.h"
 using namespace std;
 
-IntTreeNode* BuildTree5()
+IntTreeNode* BuildTree6()
 {
     IntTreeNode* root = CreateIntNode(1);
     root->left = CreateIntNode(2);
@@ -23,7 +15,28 @@ IntTreeNode* BuildTree5()
     return root;
 }
 
-void TestTreeMirror()
+IntTreeNode* BuildMirror(IntTreeNode* tree1)
 {
-    PrintHeader("")
+	if(tree1 == NULL)
+		return NULL;
+
+	IntTreeNode* tree2 = CreateIntNode(tree1->data);
+	
+	tree2->right = BuildMirror(tree1->left);
+	tree2->left = BuildMirror(tree1->right);
+	
+	return tree2;
+}
+
+void TestBuildMirror()
+{
+	PrintHeader("Build Tree Mirror");
+
+	IntTreeNode* root = BuildTree6();
+	
+	IntTreeNode* mirrorTree = BuildMirror(root);
+	
+	cout<<mirrorTree->right->data;
+
+	PrintFooter("Build Tree Mirror");
 }
