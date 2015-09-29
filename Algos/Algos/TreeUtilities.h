@@ -28,3 +28,4 @@ IntTreeNode* BuildTree4();
 IntTreeNode* BuildTree5();
 IntTreeNode* BuildTree6();
 IntTreeNode* BuildTree7();
+IntTreeNode* BuildTree8();

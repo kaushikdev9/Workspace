@@ -25,4 +25,4 @@ void TestTreeHeight();
 void TestDeleteTree();
 void TestBuildMirror();
 void TestPrintRootToLeafPath();
-//void TestPrintRootToLeafPath();
+void TestLCA();

@@ -78,3 +78,16 @@ IntTreeNode* BuildTree7()
     
     return root;
 }
+
+IntTreeNode* BuildTree8()
+{
+    IntTreeNode* root = CreateIntNode(20);
+    root->left = CreateIntNode(8);
+    root->right = CreateIntNode(22);
+    root->left->left = CreateIntNode(4);
+    root->left->right = CreateIntNode(12);
+    root->left->right->left  = CreateIntNode(10);
+    root->left->right->right = CreateIntNode(14);
+    
+    return root;
+}
