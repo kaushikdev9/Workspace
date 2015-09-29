@@ -19,3 +19,12 @@ struct IntTreeNode
 };
 
 IntTreeNode* CreateIntNode(int data);
+
+IntTreeNode* BuildTree();
+IntTreeNode* BuildTree1();
+IntTreeNode* BuildTree2();
+IntTreeNode* BuildTree3();
+IntTreeNode* BuildTree4();
+IntTreeNode* BuildTree5();
+IntTreeNode* BuildTree6();
+IntTreeNode* BuildTree7();

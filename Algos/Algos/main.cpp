@@ -24,6 +24,6 @@ int main(int argc, const char * argv[]) {
     TestTreeHeight();
     TestDeleteTree();
     TestBuildMirror();
-    //TestPrintRootToLeafPath();
+    TestPrintRootToLeafPath();
     return 0;
 }

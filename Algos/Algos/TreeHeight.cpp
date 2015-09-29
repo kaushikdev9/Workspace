@@ -23,17 +23,6 @@ int TreeHeight(IntTreeNode* root)
     return lHeight > rHeight ? lHeight + 1 : rHeight + 1;
 }
 
-IntTreeNode* BuildTree3()
-{
-    IntTreeNode* root = CreateIntNode(1);
-    root->left = CreateIntNode(2);
-    root->right = CreateIntNode(3);
-    root->left->left = CreateIntNode(4);
-    root->left->left->left = CreateIntNode(5);
-    
-    return root;
-}
-
 void TestTreeHeight()
 {
     PrintHeader("Tree Height");

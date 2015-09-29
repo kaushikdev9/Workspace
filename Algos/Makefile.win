@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o
-LINKOBJ  = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o
+OBJ      = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o
+LINKOBJ  = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
@@ -71,3 +71,9 @@ Algos/DeleteTree.o: Algos/DeleteTree.cpp
 
 Algos/BuildMirror.o: Algos/BuildMirror.cpp
 	$(CPP) -c Algos/BuildMirror.cpp -o Algos/BuildMirror.o $(CXXFLAGS)
+
+Algos/RootToLeafPath.o: Algos/RootToLeafPath.cpp
+	$(CPP) -c Algos/RootToLeafPath.cpp -o Algos/RootToLeafPath.o $(CXXFLAGS)
+
+Algos/BuildTree.o: Algos/BuildTree.cpp
+	$(CPP) -c Algos/BuildTree.cpp -o Algos/BuildTree.o $(CXXFLAGS)

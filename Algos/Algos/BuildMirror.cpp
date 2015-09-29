@@ -4,17 +4,6 @@
 #include "TreeUtilities.h"
 using namespace std;
 
-IntTreeNode* BuildTree6()
-{
-    IntTreeNode* root = CreateIntNode(1);
-    root->left = CreateIntNode(2);
-    root->right = CreateIntNode(3);
-    root->left->left = CreateIntNode(4);
-    root->left->left->left = CreateIntNode(5);
-    
-    return root;
-}
-
 IntTreeNode* BuildMirror(IntTreeNode* tree1)
 {
 	if(tree1 == NULL)

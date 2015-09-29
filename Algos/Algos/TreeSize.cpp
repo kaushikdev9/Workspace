@@ -20,17 +20,6 @@ int TreeSize(IntTreeNode* root)
     return 1 + TreeSize(root->left) + TreeSize(root->right);
 }
 
-IntTreeNode* BuildTree()
-{
-    IntTreeNode* root = CreateIntNode(1);
-    root->left = CreateIntNode(2);
-    root->right = CreateIntNode(3);
-    root->left->left = CreateIntNode(4);
-    root->left->right = CreateIntNode(5);
-    
-    return root;
-}
-
 void TestTreeSize()
 {
     PrintHeader("Calculate Tree Size");

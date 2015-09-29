@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=19
+UnitCount=22
 
 [VersionInfo]
 Major=1
@@ -231,7 +231,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit20]
-FileName=Algos\DeleteTree.cpp
+FileName=Algos\BuildMirror.cpp
 CompileCpp=1
 Folder=Trees
 Compile=1
@@ -242,6 +242,26 @@ BuildCmd=
 
 [Unit19]
 FileName=Algos\DeleteTree.cpp
+CompileCpp=1
+Folder=Trees
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit21]
+FileName=Algos\RootToLeafPath.cpp
+CompileCpp=1
+Folder=Trees
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit22]
+FileName=Algos\BuildTree.cpp
 CompileCpp=1
 Folder=Trees
 Compile=1
