@@ -15,6 +15,14 @@
 		7713038E1B97F6020072C81C /* NumberOddOccurence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7713038D1B97F6020072C81C /* NumberOddOccurence.cpp */; };
 		771303901B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7713038F1B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp */; };
 		771303921B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 771303911B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp */; };
+		772371751BC0750600A63427 /* LLUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772371741BC0750600A63427 /* LLUtilities.cpp */; };
+		772371781BC0752300A63427 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772371771BC0752300A63427 /* Queue.cpp */; };
+		7723717B1BC0755300A63427 /* MaxOccuringChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7723717A1BC0755300A63427 /* MaxOccuringChar.cpp */; };
+		7723717E1BC0758700A63427 /* BFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7723717C1BC0758700A63427 /* BFS.cpp */; };
+		7723717F1BC0758700A63427 /* BuildTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7723717D1BC0758700A63427 /* BuildTree.cpp */; };
+		772371831BC075C700A63427 /* IsBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772371801BC075C700A63427 /* IsBST.cpp */; };
+		772371841BC075C700A63427 /* LCA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772371811BC075C700A63427 /* LCA.cpp */; };
+		772371851BC075C700A63427 /* RootToLeafPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 772371821BC075C700A63427 /* RootToLeafPath.cpp */; };
 		77EB02481BB7DCD500AEBD38 /* TreeUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */; };
 		77EB024B1BB7DF2D00AEBD38 /* TreeSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */; };
 		77EB024D1BB7E9E300AEBD38 /* IdenticalTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */; };
@@ -48,6 +56,15 @@
 		7713038D1B97F6020072C81C /* NumberOddOccurence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOddOccurence.cpp; sourceTree = "<group>"; };
 		7713038F1B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestSumContiguousSubArray.cpp; sourceTree = "<group>"; };
 		771303911B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchInSortedPivotedArray.cpp; sourceTree = "<group>"; };
+		772371741BC0750600A63427 /* LLUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LLUtilities.cpp; sourceTree = "<group>"; };
+		772371761BC0751900A63427 /* LLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUtilities.h; sourceTree = "<group>"; };
+		772371771BC0752300A63427 /* Queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		7723717A1BC0755300A63427 /* MaxOccuringChar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxOccuringChar.cpp; sourceTree = "<group>"; };
+		7723717C1BC0758700A63427 /* BFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BFS.cpp; sourceTree = "<group>"; };
+		7723717D1BC0758700A63427 /* BuildTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BuildTree.cpp; sourceTree = "<group>"; };
+		772371801BC075C700A63427 /* IsBST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsBST.cpp; sourceTree = "<group>"; };
+		772371811BC075C700A63427 /* LCA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LCA.cpp; sourceTree = "<group>"; };
+		772371821BC075C700A63427 /* RootToLeafPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RootToLeafPath.cpp; sourceTree = "<group>"; };
 		77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeUtilities.cpp; sourceTree = "<group>"; };
 		77EB02491BB7DE1100AEBD38 /* TreeUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeUtilities.h; sourceTree = "<group>"; };
 		77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeSize.cpp; sourceTree = "<group>"; };
@@ -72,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		772371791BC0753E00A63427 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				7723717A1BC0755300A63427 /* MaxOccuringChar.cpp */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
 		776EA6041B46EE3400B8F356 /* Arrays */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,13 +116,18 @@
 		776EA6051B46EE5000B8F356 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
+				7723717C1BC0758700A63427 /* BFS.cpp */,
+				77EB02521BB837E600AEBD38 /* BuildMirror.cpp */,
+				7723717D1BC0758700A63427 /* BuildTree.cpp */,
+				77EB02501BB8361700AEBD38 /* DeleteTree.cpp */,
+				77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */,
+				772371801BC075C700A63427 /* IsBST.cpp */,
+				772371811BC075C700A63427 /* LCA.cpp */,
+				772371821BC075C700A63427 /* RootToLeafPath.cpp */,
+				77EB024E1BB7F76000AEBD38 /* TreeHeight.cpp */,
+				77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */,
 				77EB02471BB7DCD500AEBD38 /* TreeUtilities.cpp */,
 				77EB02491BB7DE1100AEBD38 /* TreeUtilities.h */,
-				77EB024A1BB7DF2D00AEBD38 /* TreeSize.cpp */,
-				77EB024C1BB7E9E300AEBD38 /* IdenticalTrees.cpp */,
-				77EB024E1BB7F76000AEBD38 /* TreeHeight.cpp */,
-				77EB02501BB8361700AEBD38 /* DeleteTree.cpp */,
-				77EB02521BB837E600AEBD38 /* BuildMirror.cpp */,
 			);
 			name = Trees;
 			sourceTree = "<group>";
@@ -105,6 +135,9 @@
 		776EA6061B46EE5700B8F356 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				772371771BC0752300A63427 /* Queue.cpp */,
+				772371761BC0751900A63427 /* LLUtilities.h */,
+				772371741BC0750600A63427 /* LLUtilities.cpp */,
 			);
 			name = LinkedList;
 			sourceTree = "<group>";
@@ -128,11 +161,12 @@
 		77F2B02A1B46C42700F72F0F /* Algos */ = {
 			isa = PBXGroup;
 			children = (
-				776EA6061B46EE5700B8F356 /* LinkedList */,
-				776EA6051B46EE5000B8F356 /* Trees */,
 				776EA6041B46EE3400B8F356 /* Arrays */,
-				77F2B02B1B46C42700F72F0F /* main.cpp */,
 				77F2B0341B46C77400F72F0F /* Header.h */,
+				776EA6061B46EE5700B8F356 /* LinkedList */,
+				77F2B02B1B46C42700F72F0F /* main.cpp */,
+				772371791BC0753E00A63427 /* Strings */,
+				776EA6051B46EE5000B8F356 /* Trees */,
 				771303881B9757590072C81C /* Utilities.cpp */,
 				771303891B9757590072C81C /* Utilities.h */,
 			);
@@ -197,17 +231,25 @@
 			files = (
 				77EB024B1BB7DF2D00AEBD38 /* TreeSize.cpp in Sources */,
 				771303821B97418B0072C81C /* PairWithSumInArray.cpp in Sources */,
+				7723717F1BC0758700A63427 /* BuildTree.cpp in Sources */,
 				77F2B0331B46C68100F72F0F /* LinearSearch.cpp in Sources */,
+				7723717E1BC0758700A63427 /* BFS.cpp in Sources */,
+				772371831BC075C700A63427 /* IsBST.cpp in Sources */,
+				772371781BC0752300A63427 /* Queue.cpp in Sources */,
 				771303901B97F7BF0072C81C /* LargestSumContiguousSubArray.cpp in Sources */,
 				7713038C1B97ED1C0072C81C /* MajorityElement.cpp in Sources */,
+				772371841BC075C700A63427 /* LCA.cpp in Sources */,
 				7713038A1B9757590072C81C /* Utilities.cpp in Sources */,
 				771303861B9754780072C81C /* ArrayUtilities.cpp in Sources */,
 				77F2B02C1B46C42700F72F0F /* main.cpp in Sources */,
 				7713038E1B97F6020072C81C /* NumberOddOccurence.cpp in Sources */,
 				77EB02481BB7DCD500AEBD38 /* TreeUtilities.cpp in Sources */,
+				772371851BC075C700A63427 /* RootToLeafPath.cpp in Sources */,
+				7723717B1BC0755300A63427 /* MaxOccuringChar.cpp in Sources */,
 				77EB024F1BB7F76000AEBD38 /* TreeHeight.cpp in Sources */,
 				77EB02531BB837E600AEBD38 /* BuildMirror.cpp in Sources */,
 				77EB024D1BB7E9E300AEBD38 /* IdenticalTrees.cpp in Sources */,
+				772371751BC0750600A63427 /* LLUtilities.cpp in Sources */,
 				77EB02511BB8361700AEBD38 /* DeleteTree.cpp in Sources */,
 				771303841B9751F80072C81C /* BubbleSort.cpp in Sources */,
 				771303921B9C7DA60072C81C /* SearchInSortedPivotedArray.cpp in Sources */,

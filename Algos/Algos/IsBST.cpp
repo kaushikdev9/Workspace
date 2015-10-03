@@ -17,7 +17,7 @@ bool IsBSTUtil(IntTreeNode* root, int min, int max)
 
 bool IsBST(IntTreeNode* root)
 {
-	IsBSTUtil(root, INT_MIN, INT_MAX);
+	return IsBSTUtil(root, INT_MIN, INT_MAX);
 }
 
 void TestIsBST()

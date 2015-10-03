@@ -4,6 +4,7 @@
 #include "LLUtilities.h"
 using namespace std;
 
+/*
 IntLLNode* CreateQueueNode(int data)
 {
 	IntLLNode* node = new IntLLNode();
@@ -11,4 +12,4 @@ IntLLNode* CreateQueueNode(int data)
 	node->prev = NULL;
 	node->data = data;
 }
-
+*/

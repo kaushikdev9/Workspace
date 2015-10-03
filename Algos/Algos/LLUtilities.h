@@ -1,4 +1,4 @@
-struct IntLLNode
+/*struct IntLLNode
 {
 	int data;
 	IntLLNode* next;
@@ -8,4 +8,4 @@ struct IntLLNode
 struct Queue* Q;
 
 IntLLNode* CreateQueueNode(int data);
-struct Queue* CreateQueue();
+struct Queue* CreateQueue();*/
