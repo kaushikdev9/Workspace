@@ -26,5 +26,9 @@ int main(int argc, const char * argv[]) {
     TestBuildMirror();
     TestPrintRootToLeafPath();
     TestLCA();
+    TestIsBST();
+    TestBFS();
+    
+	TestMaxOccuringChar();
     return 0;
 }

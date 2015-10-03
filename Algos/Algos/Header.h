@@ -26,3 +26,7 @@ void TestDeleteTree();
 void TestBuildMirror();
 void TestPrintRootToLeafPath();
 void TestLCA();
+void TestIsBST();
+void TestBFS();
+
+void TestMaxOccuringChar();

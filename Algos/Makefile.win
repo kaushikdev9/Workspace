@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o Algos/LCA.o
-LINKOBJ  = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o Algos/LCA.o
+OBJ      = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o Algos/LCA.o Algos/IsBST.o Algos/BFS.o Algos/Queue.o Algos/LLUtilities.o Algos/MaxOccuringChar.o
+LINKOBJ  = Algos/ArrayUtilities.o Algos/BubbleSort.o Algos/LargestSumContiguousSubArray.o Algos/LinearSearch.o Algos/main.o Algos/MajorityElement.o Algos/NumberOddOccurence.o Algos/PairWithSumInArray.o Algos/SearchInSortedPivotedArray.o Algos/Utilities.o Algos/IdenticalTrees.o Algos/TreeHeight.o Algos/TreeSize.o Algos/TreeUtilities.o Algos/DeleteTree.o Algos/BuildMirror.o Algos/RootToLeafPath.o Algos/BuildTree.o Algos/LCA.o Algos/IsBST.o Algos/BFS.o Algos/Queue.o Algos/LLUtilities.o Algos/MaxOccuringChar.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
@@ -80,3 +80,18 @@ Algos/BuildTree.o: Algos/BuildTree.cpp
 
 Algos/LCA.o: Algos/LCA.cpp
 	$(CPP) -c Algos/LCA.cpp -o Algos/LCA.o $(CXXFLAGS)
+
+Algos/IsBST.o: Algos/IsBST.cpp
+	$(CPP) -c Algos/IsBST.cpp -o Algos/IsBST.o $(CXXFLAGS)
+
+Algos/BFS.o: Algos/BFS.cpp
+	$(CPP) -c Algos/BFS.cpp -o Algos/BFS.o $(CXXFLAGS)
+
+Algos/Queue.o: Algos/Queue.cpp
+	$(CPP) -c Algos/Queue.cpp -o Algos/Queue.o $(CXXFLAGS)
+
+Algos/LLUtilities.o: Algos/LLUtilities.cpp
+	$(CPP) -c Algos/LLUtilities.cpp -o Algos/LLUtilities.o $(CXXFLAGS)
+
+Algos/MaxOccuringChar.o: Algos/MaxOccuringChar.cpp
+	$(CPP) -c Algos/MaxOccuringChar.cpp -o Algos/MaxOccuringChar.o $(CXXFLAGS)
